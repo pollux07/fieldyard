@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tilatina.campi.PreviewPhoto">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/preview_picture"
+        android:layout_gravity="center"
+        android:contentDescription="@string/photo_preview" />
+    <EditText
+        android:id="@+id/picture_description"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:paddingStart="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="90dp"
+        android:paddingEnd="90dp"
+        android:hint="@string/add_description"
+        android:textColorHint="@color/hint"
+        android:textColor="@color/white"
+        android:textSize="10pt"
+        android:background="@drawable/scrim_background"
+        android:inputType="text|textMultiLine|textCapSentences"
+        android:maxLength="1000"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/send_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        app:elevation="6dp"
+        app:backgroundTint="@color/greenForActions"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="18dp"
+        app:pressedTranslationZ="12dp"
+        android:src="@drawable/ic_send_novelty"
+        tools:targetApi="lollipop"/>
+</FrameLayout>

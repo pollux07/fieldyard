@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "965260968651",
+    "firebase_url": "https://campi-cf580.firebaseio.com",
+    "project_id": "campi-cf580",
+    "storage_bucket": "campi-cf580.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965260968651:android:4357473e658701a7",
+        "android_client_info": {
+          "package_name": "com.tilatina.campi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965260968651-bg4jlkftuqqje7lvgnj183kaa7k7c09v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tilatina.campi",
+            "certificate_hash": "81f4265177e8dc472044b7ddcc773026212db568"
+          }
+        },
+        {
+          "client_id": "965260968651-gvovs5569dfetmfi8oeomanmvlh3vhr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvOyYG3idzyarLfKP3yyvBNgKj2CxoaCg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965260968651-gvovs5569dfetmfi8oeomanmvlh3vhr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

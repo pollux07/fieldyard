@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:android1="http://schemas.android.com/apk/res/android">
+
+    <item
+        android1:id="@+id/refresh"
+        android1:title="@string/refresh" />
+    <item
+        android1:id="@+id/data"
+        android1:title="@string/data" />
+    <item
+        android1:id="@+id/settings"
+        android1:title="@string/settings" />
+    <item
+        android1:id="@+id/logout"
+        android1:title="@string/logout" />
+</menu>
